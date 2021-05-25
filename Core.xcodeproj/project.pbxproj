@@ -9,20 +9,12 @@
 /* Begin PBXBuildFile section */
 		0369240E263F708E00FD4CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369240D263F708E00FD4CA3 /* AppDelegate.swift */; };
 		03692410263F708E00FD4CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369240F263F708E00FD4CA3 /* SceneDelegate.swift */; };
-		03692412263F708E00FD4CA3 /* PlainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03692411263F708E00FD4CA3 /* PlainViewController.swift */; };
 		03692415263F708E00FD4CA3 /* Core.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03692413263F708E00FD4CA3 /* Core.xcdatamodeld */; };
 		03692417263F708E00FD4CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03692416263F708E00FD4CA3 /* Assets.xcassets */; };
 		0369241A263F708E00FD4CA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03692419263F708E00FD4CA3 /* Preview Assets.xcassets */; };
 		0369241D263F708E00FD4CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0369241B263F708E00FD4CA3 /* LaunchScreen.storyboard */; };
 		03692428263F708F00FD4CA3 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03692427263F708F00FD4CA3 /* CoreTests.swift */; };
 		03692433263F708F00FD4CA3 /* CoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03692432263F708F00FD4CA3 /* CoreUITests.swift */; };
-		0369244D263F712D00FD4CA3 /* AppFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369244C263F712D00FD4CA3 /* AppFonts.swift */; };
-		0369245C263F730D00FD4CA3 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369245B263F730D00FD4CA3 /* TextView.swift */; };
-		03692469263F884100FD4CA3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03692468263F884100FD4CA3 /* TableViewController.swift */; };
-		03692490263F8E6300FD4CA3 /* AppButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369248F263F8E6300FD4CA3 /* AppButtons.swift */; };
-		03692495263F8F0E00FD4CA3 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03692494263F8F0E00FD4CA3 /* AppColors.swift */; };
-		036925382640818400FD4CA3 /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036925372640818400FD4CA3 /* AppExtensions.swift */; };
-		0369253D264081DE00FD4CA3 /* AppDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0369253C264081DE00FD4CA3 /* AppDevices.swift */; };
 		036925502640BB9A00FD4CA3 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0369254C2640BB9A00FD4CA3 /* Lato-Regular.ttf */; };
 		036925512640BB9A00FD4CA3 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0369254D2640BB9A00FD4CA3 /* Lato-Italic.ttf */; };
 		036925522640BB9A00FD4CA3 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0369254E2640BB9A00FD4CA3 /* Lato-BoldItalic.ttf */; };
@@ -32,15 +24,11 @@
 		C3EF02FC265421240094B2F1 /* PaginationUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF02FB265421240094B2F1 /* PaginationUIView.swift */; };
 		C3EF02FE265421330094B2F1 /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF02FD265421330094B2F1 /* ButtonUIView.swift */; };
 		C3EF030226542F810094B2F1 /* AvatarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF030126542F810094B2F1 /* AvatarUIView.swift */; };
-		C3EF0304265437570094B2F1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF0303265437570094B2F1 /* ButtonView.swift */; };
-		C3EF03062654376C0094B2F1 /* TableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF03052654376C0094B2F1 /* TableCellView.swift */; };
 		C3EF030A265444370094B2F1 /* ModalImageUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF0309265444370094B2F1 /* ModalImageUIView.swift */; };
 		C3EF030C26547E890094B2F1 /* CarouselUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF030B26547E890094B2F1 /* CarouselUIView.swift */; };
 		C3EF030F265480440094B2F1 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF030E265480440094B2F1 /* Feed.swift */; };
 		C3EF03122654815B0094B2F1 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C3EF03112654815B0094B2F1 /* Alamofire */; };
-		C3EF0316265485A30094B2F1 /* FeedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF0315265485A30094B2F1 /* FeedUIView.swift */; };
 		C3EF0318265485C00094B2F1 /* PostUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF0317265485C00094B2F1 /* PostUIView.swift */; };
-		C3EF031B2654A22D0094B2F1 /* FeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF031A2654A22D0094B2F1 /* FeedInteractor.swift */; };
 		C3EF031E2654AC1B0094B2F1 /* CouchbaseLiteSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3EF031D2654AC1B0094B2F1 /* CouchbaseLiteSwift */; };
 		C3EF03212654AC710094B2F1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3EF03202654AC710094B2F1 /* SnapKit */; };
 		C3EF03242654ADE30094B2F1 /* Couchbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EF03232654ADE30094B2F1 /* Couchbase.swift */; };
@@ -89,7 +77,6 @@
 		0369240A263F708E00FD4CA3 /* Core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Core.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0369240D263F708E00FD4CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0369240F263F708E00FD4CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03692411263F708E00FD4CA3 /* PlainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainViewController.swift; sourceTree = "<group>"; };
 		03692414263F708E00FD4CA3 /* Core.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Core.xcdatamodel; sourceTree = "<group>"; };
 		03692416263F708E00FD4CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03692419263F708E00FD4CA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -101,13 +88,6 @@
 		0369242E263F708F00FD4CA3 /* CoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03692432263F708F00FD4CA3 /* CoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreUITests.swift; sourceTree = "<group>"; };
 		03692434263F708F00FD4CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0369244C263F712D00FD4CA3 /* AppFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFonts.swift; sourceTree = "<group>"; };
-		0369245B263F730D00FD4CA3 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-		03692468263F884100FD4CA3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		0369248F263F8E6300FD4CA3 /* AppButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtons.swift; sourceTree = "<group>"; };
-		03692494263F8F0E00FD4CA3 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
-		036925372640818400FD4CA3 /* AppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
-		0369253C264081DE00FD4CA3 /* AppDevices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDevices.swift; sourceTree = "<group>"; };
 		0369254C2640BB9A00FD4CA3 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		0369254D2640BB9A00FD4CA3 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
 		0369254E2640BB9A00FD4CA3 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -117,14 +97,10 @@
 		C3EF02FB265421240094B2F1 /* PaginationUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationUIView.swift; sourceTree = "<group>"; };
 		C3EF02FD265421330094B2F1 /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
 		C3EF030126542F810094B2F1 /* AvatarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarUIView.swift; sourceTree = "<group>"; };
-		C3EF0303265437570094B2F1 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
-		C3EF03052654376C0094B2F1 /* TableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCellView.swift; sourceTree = "<group>"; };
 		C3EF0309265444370094B2F1 /* ModalImageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalImageUIView.swift; sourceTree = "<group>"; };
 		C3EF030B26547E890094B2F1 /* CarouselUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselUIView.swift; sourceTree = "<group>"; };
 		C3EF030E265480440094B2F1 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
-		C3EF0315265485A30094B2F1 /* FeedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIView.swift; sourceTree = "<group>"; };
 		C3EF0317265485C00094B2F1 /* PostUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostUIView.swift; sourceTree = "<group>"; };
-		C3EF031A2654A22D0094B2F1 /* FeedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedInteractor.swift; sourceTree = "<group>"; };
 		C3EF03232654ADE30094B2F1 /* Couchbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Couchbase.swift; sourceTree = "<group>"; };
 		C3EF032C2655BFA00094B2F1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		C3EF032E2655BFA00094B2F1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -257,8 +233,6 @@
 		0369244B263F711700FD4CA3 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				C3EF036D265B624C0094B2F1 /* SwiftUI */,
-				C3EF036C265B623C0094B2F1 /* UIKit */,
 				0369240F263F708E00FD4CA3 /* SceneDelegate.swift */,
 				0369240D263F708E00FD4CA3 /* AppDelegate.swift */,
 			);
@@ -269,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				C3EF0307265437B90094B2F1 /* SwiftUI */,
-				C3EF0308265437D00094B2F1 /* UIKit */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -278,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				C3EF0314265485640094B2F1 /* SwiftUI */,
-				C3EF0313265485370094B2F1 /* SwiftUI+UIKit */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -314,16 +286,6 @@
 			path = SwiftUI;
 			sourceTree = "<group>";
 		};
-		C3EF0308265437D00094B2F1 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				0369245B263F730D00FD4CA3 /* TextView.swift */,
-				C3EF03052654376C0094B2F1 /* TableCellView.swift */,
-				C3EF0303265437570094B2F1 /* ButtonView.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
 		C3EF030D265480280094B2F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -335,31 +297,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		C3EF0313265485370094B2F1 /* SwiftUI+UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				03692411263F708E00FD4CA3 /* PlainViewController.swift */,
-				03692468263F884100FD4CA3 /* TableViewController.swift */,
-			);
-			path = "SwiftUI+UIKit";
-			sourceTree = "<group>";
-		};
 		C3EF0314265485640094B2F1 /* SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				C3EF034C265841C90094B2F1 /* PokeDex */,
-				C3EF031926549ED50094B2F1 /* Social */,
 			);
 			path = SwiftUI;
-			sourceTree = "<group>";
-		};
-		C3EF031926549ED50094B2F1 /* Social */ = {
-			isa = PBXGroup;
-			children = (
-				C3EF0315265485A30094B2F1 /* FeedUIView.swift */,
-				C3EF031A2654A22D0094B2F1 /* FeedInteractor.swift */,
-			);
-			path = Social;
 			sourceTree = "<group>";
 		};
 		C3EF03222654ADCB0094B2F1 /* Network */ = {
@@ -436,25 +379,6 @@
 				C3EF0342265717BB0094B2F1 /* ImageInteractor.swift */,
 			);
 			path = Image;
-			sourceTree = "<group>";
-		};
-		C3EF036C265B623C0094B2F1 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				0369244C263F712D00FD4CA3 /* AppFonts.swift */,
-				0369248F263F8E6300FD4CA3 /* AppButtons.swift */,
-				03692494263F8F0E00FD4CA3 /* AppColors.swift */,
-				036925372640818400FD4CA3 /* AppExtensions.swift */,
-				0369253C264081DE00FD4CA3 /* AppDevices.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		C3EF036D265B624C0094B2F1 /* SwiftUI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -604,29 +528,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3EF03642659B9490094B2F1 /* Core+URLSession.swift in Sources */,
-				C3EF03062654376C0094B2F1 /* TableCellView.swift in Sources */,
 				C3EF036B265B5CA70094B2F1 /* PokemonTypeUIView.swift in Sources */,
 				C3EF035826597F280094B2F1 /* TextUIView.swift in Sources */,
 				0369240E263F708E00FD4CA3 /* AppDelegate.swift in Sources */,
 				C3EF0318265485C00094B2F1 /* PostUIView.swift in Sources */,
-				03692469263F884100FD4CA3 /* TableViewController.swift in Sources */,
 				C3EF030C26547E890094B2F1 /* CarouselUIView.swift in Sources */,
 				C3EF030A265444370094B2F1 /* ModalImageUIView.swift in Sources */,
 				C3EF035A2659915D0094B2F1 /* NavigationUIView.swift in Sources */,
 				C3EF0371265B63BA0094B2F1 /* Core+Color.swift in Sources */,
-				036925382640818400FD4CA3 /* AppExtensions.swift in Sources */,
-				C3EF0316265485A30094B2F1 /* FeedUIView.swift in Sources */,
 				C3EF03452658033E0094B2F1 /* Generation.swift in Sources */,
-				03692490263F8E6300FD4CA3 /* AppButtons.swift in Sources */,
 				C3EF02FE265421330094B2F1 /* ButtonUIView.swift in Sources */,
 				C3EF02F826538CD30094B2F1 /* ImageUIView.swift in Sources */,
 				C3EF034B26580EF30094B2F1 /* ImageBlob.swift in Sources */,
 				C3EF034926580A740094B2F1 /* Pokemon.swift in Sources */,
-				03692495263F8F0E00FD4CA3 /* AppColors.swift in Sources */,
-				0369244D263F712D00FD4CA3 /* AppFonts.swift in Sources */,
-				0369253D264081DE00FD4CA3 /* AppDevices.swift in Sources */,
 				C3EF0369265B474B0094B2F1 /* Core+Data.swift in Sources */,
-				C3EF031B2654A22D0094B2F1 /* FeedInteractor.swift in Sources */,
 				C3EF030F265480440094B2F1 /* Feed.swift in Sources */,
 				C3EF034126570B4E0094B2F1 /* RequestManager.swift in Sources */,
 				C3EF0347265804DC0094B2F1 /* Decoders.swift in Sources */,
@@ -639,11 +554,8 @@
 				C3EF0375265B70DC0094B2F1 /* LikeUIView.swift in Sources */,
 				03692410263F708E00FD4CA3 /* SceneDelegate.swift in Sources */,
 				03692415263F708E00FD4CA3 /* Core.xcdatamodeld in Sources */,
-				03692412263F708E00FD4CA3 /* PlainViewController.swift in Sources */,
 				C3EF02FC265421240094B2F1 /* PaginationUIView.swift in Sources */,
 				C3EF0367265B47310094B2F1 /* Core+String.swift in Sources */,
-				0369245C263F730D00FD4CA3 /* TextView.swift in Sources */,
-				C3EF0304265437570094B2F1 /* ButtonView.swift in Sources */,
 				C3EF030226542F810094B2F1 /* AvatarUIView.swift in Sources */,
 				C3EF03562658AEE50094B2F1 /* PokeDexDetailUIView.swift in Sources */,
 				C3EF034E265842050094B2F1 /* PokeDexInteractor.swift in Sources */,
